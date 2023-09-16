@@ -115,6 +115,7 @@ img{
   padding-inline: .75rem;
   padding-block: 1rem;
 }
+
 @media(min-width:600px){
   .container{
     max-width: 900px;
@@ -206,8 +207,8 @@ body{
 .footer-wrapper{
   text-align: center;
   font-size: 0.75rem;
-  width: 100%;
-  padding-block: 1rem;
+
+  
 
 }
 .footer-journal{
@@ -252,6 +253,9 @@ body{
 nav{
   padding-block: .5rem;
 }
+body{
+  margin-bottom: 6.5rem;
+}
 
 .footer-wrapper{
   position: sticky;
@@ -261,6 +265,10 @@ nav{
   margin-top: 4rem;
   background-color: var(--black-footer);
   max-height: 6.5rem;
+  width: 100%;
+  padding-block: 2rem;
+  transform: translateY(6.5rem);
+
 }
 
 .footer{
@@ -318,6 +326,7 @@ a:hover,button:hover,.btn:hover{
 .journal-container{
   gap: .5rem;
   margin-block: .75rem;
+  
 }
 .journal-subtitle{
   margin-bottom: .5rem;
@@ -351,6 +360,9 @@ a:hover,button:hover,.btn:hover{
   .container,.home-hero{
     max-width: 64rem;
   
+  }
+  .journal-container{
+    padding-inline: 6rem;
   }
   .max-40rem{
     max-width:40rem ;

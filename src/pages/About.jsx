@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
     <AboutHero/>
-    <JournalEntry/>
+    <JournalEntry containerClass={'px-4rem'}/>
     <RecentBlogPosts/>
     </>
   )

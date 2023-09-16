@@ -3,10 +3,10 @@ import Container from '../components/SubComponents/Container'
 import JournalSubtitle from './JournalSubtitle'
 import JournalParagraph from './JournalParagraph'
 
-const JournalEntry = () => {
+const JournalEntry = ({containerClass}) => {
   return (
     <>
-    <Container className={'journal-container flex-col'}>
+    <Container className={`journal-container flex-col ${containerClass}`}>
         <JournalSubtitle>
         How I stay committed to learning
         </JournalSubtitle>
@@ -22,7 +22,7 @@ const JournalEntry = () => {
         </JournalParagraph>
 
     </Container>
-    <Container className={'journal-container flex-col'}>
+    <Container className={`journal-container flex-col ${containerClass}`}>
         <JournalSubtitle>
         How I got started
         </JournalSubtitle>
