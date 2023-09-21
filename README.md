@@ -1,4 +1,4 @@
-# Shah's Journal Scrimba FrontEnd Module 6 - R
+# Shah's Journal Scrimba FrontEnd Module 6 - Responsive Design
 
 Quick start:
 
@@ -6,9 +6,7 @@ Quick start:
 $ npm install
 $ npm run dev
 ````
-
-This is a quiz application that uses a restful API from https://opentdb.com/api_config.php . There is no API key required.
-
+This is my learning journal 
 See [Demo](https://shahs-diner.netlify.app/)
 
 ## Functionality
@@ -17,19 +15,20 @@ See [Demo](https://shahs-diner.netlify.app/)
 
 ## Libaries that have been used
 - React
-- Nanoid
-- Font Awesome
+- React-router
+- CSS grid
+- Flex-box
 
 ## Stretch goals
-- The original version of this was part of the Module 5 - Essential Javascript Concepts but I coded this with React. If you wish to see the repo for the original project using vanilla JS you can view this [here](https://github.com/Pharma2022/restaurant-order-app). 
-- I utilised conditional rendering to only show the minus icon(-) on the menu item if the item was in the order array
-- I used nanoid instead of hard coding an id
+- I coded this using React -Router which allowed easy navigation between pages
+- The use of React improved reusability
+- I used a layout route for the navigation and footer
+- To improve image imports - right now its slightly clunky, again it would be useful to have firebase integration to make maintenance easier.
+  
 
 ## Further Stretch Goals/General Improvements
-- To refactor the CSS to make maintenance easier
-- To wire up my project to firebase rather than iterating over a data.js file
-- To add a dark mode using React-switch
-- I would like to add backend functionality to actually verify and accept card details to process payments . I believe I can achieve this using Firebase and will need to do this if I ever develop e-commerce applications. 
+- To consider transforming this into portfolio/about me page
+- To add a dark mode - currently you can force the dark mode using google chrome. Type  "chrome://flags" in the address bar if using Google Chrome or "edge://flags" if using Microsoft Edge (I imagine it will be the same for all chromium browsers).  If you scroll down to Auto Dark Mode for Web Contents (or do Ctrl+F) and select 'Enabled' 
 
 
 ### If you wish to connect with me or find out more about my projects you can:
