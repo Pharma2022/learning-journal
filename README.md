@@ -7,7 +7,7 @@ $ npm install
 $ npm run dev
 ````
 This is my learning journal 
-See [Demo](https://shahs-diner.netlify.app/)
+See [Demo](https://shahs-journal.netlify.app/)
 
 ## Functionality
 - This features a Menu which has items which you can add to the an order
